@@ -1,601 +1,608 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
-    padding-bottom: 15px;
-    position: relative;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.hide-scroll {
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 .collapsible {
-    position: absolute;
-    right: 0px;
-    z-index: 1
-    ;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
 }
 
 .collapsible-header {
-    opacity: .8;
-    height: 3rem;
-    align-items: center;
+  opacity: 0.8;
+  height: 3rem;
+  align-items: center;
 }
 
 a.waves-effect.waves-light.removeButton {
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 i.material-icons.close {
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #7e57c2;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7e57c2;
 }
 
 .row.spotify-widget {
-    padding-top: 0px;
-    margin-top: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .collapsible-body {
-    background-color: white;
+  background-color: white;
 }
 
-.collapsible.popout>li.active {
-    -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
-    margin: 16px 20px;
+.collapsible.popout > li.active {
+  -webkit-box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%),
+    0 4px 15px 0 rgb(0 0 0 / 15%);
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  margin: 16px 20px;
 }
 
 .collapsible-img {
-    width: 2rem;
-    font-size: 1.6rem;
-    display: inline-block;
-    text-align: center;
-    margin-right: 1rem;
+  width: 2rem;
+  font-size: 1.6rem;
+  display: inline-block;
+  text-align: center;
+  margin-right: 1rem;
 }
 
 img.vedomy-logo {
-    height: 13rem;
+  height: 13rem;
 }
 
-img.responsive-img, video.responsive-video {
-    max-width: 100%;
-    height: 15rem;
+img.responsive-img,
+video.responsive-video {
+  max-width: 100%;
+  height: 15rem;
 }
 
 .subtitle {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .divider {
-    height: 1px;
-    overflow: hidden;
-    background-color: #c1b5d6;
+  height: 1px;
+  overflow: hidden;
+  background-color: #c1b5d6;
 }
 
-
 .row.center-align.breathe-column {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0px;
-
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0px;
 }
 
 .mood-button.hide-mobile {
-    min-width: 15rem;
+  min-width: 15rem;
 }
 
 a.col.s6.waves-effect.waves-light.btn.modal-trigger {
-    width: 75%;
+  width: 75%;
 }
 
 .col.s12.m4.l3.left {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .row {
-    padding-top: 10px;
-    margin-top: 5px;
+  padding-top: 10px;
+  margin-top: 5px;
 }
 
 .header-elements {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .col.s12.m4.l3.left.quote-column {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main-body {
-    padding: 30px;
-    padding-top: 15px;
+  padding: 30px;
+  padding-top: 15px;
 }
 
 img.activator.yoga-img {
-    padding: 10px;
-    height: 14rem;
+  padding: 10px;
+  height: 14rem;
 }
 
 .add-update-box {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card .card-image {
-    position: relative;
-    padding: 20px;
-    width: 100%;
+  position: relative;
+  padding: 20px;
+  width: 100%;
 }
 
 .card-image {
-    width: 100%;
+  width: 100%;
 }
 
 .yoga-card {
-    text-align: center;
-    padding-top: 0px;
-    margin-top: 0px;
-
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .card.hoverable {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 
 .food-card {
-    text-align: center;
+  text-align: center;
 }
 
 .card-content {
-    border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
 }
 
 .card-title.center-align {
-    padding: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .card-image {
-    text-align: center;
+  text-align: center;
 }
 
 .card-content.yoga-content {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .card-title {
-    color: black;
-    padding-top: 10px;
+  color: black;
+  padding-top: 10px;
 }
 
 p.section {
-    text-align: center;
+  text-align: center;
 }
 
 #breatheBox {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .breathButton {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .row .col.s6 {
-    width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  margin-right: auto;
 }
 
 .sleep-button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.btn, .btn-small {
-    background-color: #4527a0;
-    letter-spacing: 0px;
+.btn,
+.btn-small {
+  background-color: #4527a0;
+  letter-spacing: 0px;
 }
 
-.btn:hover, .btn-small:hover {
-    background-color: #7e57c2;
+.btn:hover,
+.btn-small:hover {
+  background-color: #7e57c2;
 }
 
 .btn-floating.btn-large {
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
 }
 
 #quote-here {
-    flex-wrap:wrap;
-    margin-top: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .quotetitle {
-    margin-bottom: 0px;
-    font-weight: 700;
+  margin-bottom: 0px;
+  font-weight: 700;
 }
 
 .quote-divider {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 blockquote {
-    margin: 20px 0;
-    padding-left: 1.5rem;
-    border-left: 0px solid #4527a0; /* Just change the color value and that's it*/
-    padding-top: 10px;
-  }
-
-#author {
-    padding-left: 0;
-    font-style: italic;
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 0px solid #4527a0; /* Just change the color value and that's it*/
+  padding-top: 10px;
 }
 
+#author {
+  padding-left: 0;
+  font-style: italic;
+}
 
 .sleep-card {
-    text-align: center;
+  text-align: center;
 }
 
 .emoticons {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0px;
-    padding-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-top: 0px;
 }
 
 .emoticons:after {
-    content: none;
+  content: none;
 }
 
 .row .col.s2 {
-    width: auto;
-    margin-left: 0px;
-    left: auto;
-    right: auto;
+  width: auto;
+  margin-left: 0px;
+  left: auto;
+  right: auto;
 }
 
 .range-field {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .modal-title {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .slider-text {
-    padding: 0 .75rem;
+  padding: 0 0.75rem;
 }
 
 .select-wrapper input.select-dropdown {
-    margin: 0 0 8px 30px;
+  margin: 0 0 8px 30px;
 }
 
 .modal-q.input-field.col.s12 {
-    display: flex;
+  display: flex;
 }
 
-.hours-title, .diet-title {
-    display: flex;
-    align-items: center;
+.hours-title,
+.diet-title {
+  display: flex;
+  align-items: center;
 }
 
 .modal-content {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .mood-button {
-    display: flex;
+  display: flex;
 }
 
 .row {
-    padding-right: 10px;
+  padding-right: 10px;
 }
-   
+
 h5.col {
-    margin-top: .5rem;
-    font-style: italic;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 .modal-trigger {
-    margin: 0;
-    z-index: 0;
+  margin: 0;
+  z-index: 0;
 }
 
 .checkbox-container {
-    color: black;
-    padding-left: 20px;
+  color: black;
+  padding-left: 20px;
 }
 
-
 .col.s4.status-placeholder {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .col.s12.timestamp-container {
-    border-radius: 10px 10px;
-    border-color: black;
-    padding-right: 0px;
+  border-radius: 10px 10px;
+  border-color: black;
+  padding-right: 0px;
 }
 
-[type="checkbox"]+span:not(.lever) {
-    position: relative;
-    padding-left: 25px;
+[type="checkbox"] + span:not(.lever) {
+  position: relative;
+  padding-left: 25px;
 }
 
 .exercise {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .valign-wrapper {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #breatheBoxContainer {
-    position: relative;
-    margin:0 auto;
-    width: 200px;
-    height: 200px;
-    background-color:blueviolet;
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
 }
 
 #breatheBox {
-    position: flex;
-    width: 100px;
-    height: 100px;
-    border:1px solid black;
-    background-color:cornflowerblue;
+  position: flex;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-color: cornflowerblue;
 }
 
 .movingBox {
-    animation-name: breathing;
-    animation-duration: 16s;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-direction: normal;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none;
-    animation-play-state: running;
+  animation-name: breathing;
+  animation-duration: 16s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 
 .boxText {
-    display:flex;
-    justify-content: center;
-    margin-top: 35px;
-    align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  align-self: center;
 }
 
 .showText {
-    justify-content: center;
-    margin-top: 35px;
-    align-self: center;
+  justify-content: center;
+  margin-top: 35px;
+  align-self: center;
 }
 
 #textOut {
-    display:none;
-    justify-content: center;
-    margin-top: 35px;
-    align-self: center;
+  display: none;
+  justify-content: center;
+  margin-top: 35px;
+  align-self: center;
 }
 
 .col.s12.m8.l9.mood-box-content {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .mood-box {
-    padding-top: 0px;
-    padding-right: 10px;
-    margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  margin-top: 0px;
 }
 
 .row.status {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    min-height: 17px;
-    display: flex;
-    align-items: center;
-    font-size: smaller;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  min-height: 17px;
+  display: flex;
+  align-items: center;
+  font-size: smaller;
 }
 
 .zenthoughts-container {
-    margin-top: 0px;
-    padding: 10px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 0px;
 }
 
 .col.s12.status {
-    font-size: smaller;
-    min-height: 18px;
+  font-size: smaller;
+  min-height: 18px;
 }
 
 .placeholder-text {
-    font-style: italic;
-    margin-top: 5rem;
+  font-style: italic;
+  margin-top: 5rem;
 }
 
 .row .col.s4 {
-    display: flex;
+  display: flex;
 }
 
 .status-placeholder {
-    justify-content: center;
+  justify-content: center;
 }
 
 .card.horizontal .card-image {
-    max-width: 10rem;
-    padding: 0px;
+  max-width: 10rem;
+  padding: 0px;
 }
 
 .card-image.waves-effect.waves-block.waves-light {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 i.material-icons.light-green-text {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .card.horizontal .card-image img {
-    height: 6rem;
+  height: 6rem;
 }
 
 #first-zen {
-    float: left;
+  float: left;
 }
 
 #second-zen {
-    float: right;
+  float: right;
 }
 
 img.col.s2.zen-pic.materialboxed {
-    padding: 0px;
+  padding: 0px;
 }
 
 .main-buttons {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .add-update-box {
-    order: 1;
+  order: 1;
 }
 
 .ai {
-    background-color: #a987e4;
+  background-color: #a987e4;
 }
 
 .mood-button.hide-mobile {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .collapsible.popout {
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    max-width: 50%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  max-width: 50%;
 }
 
 input.select-dropdown.dropdown-trigger {
-    inline-size: min-content;
+  inline-size: min-content;
 }
 
 .breathe-colum {
-    order: 2;
+  order: 2;
 }
 
-.breathe-colum, .add-update-box {
-    margin-bottom: 20px;
+.breathe-colum,
+.add-update-box {
+  margin-bottom: 20px;
 }
 
 .feeling-text {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    font-style: italic;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-style: italic;
 }
 
 .thoughts-text {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .sidenav-trigger {
-    display: inline;
+  display: inline;
 }
 
 @keyframes breathing {
-    0% {
-        transform:scale(1);
-        
-    }
-    25% {
-        transform:scale(2);
-    }
-    50% {
-        transform:scale(2);
-    }
-    75% {
-        transform:scale(1);
-    }
-    100% {
-        transform:scale(1);
-    }
-    
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media only screen and (min-width: 993px) {
-    .container {
-        width: 85%;
-    }
+  .container {
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    
-    img#second-zen, img#first-zen {
-        height: 3rem;
-    }
+  img#second-zen,
+  img#first-zen {
+    height: 3rem;
+  }
 
-    #second-zen {
-        float: left;
-    }
-    .header-elements {
-        flex-direction: column;
-    }
-    .col.s4.status-placeholder {
-        width: 12.5%;
-        overflow: auto;
+  #second-zen {
+    float: left;
+  }
+  .header-elements {
+    flex-direction: column;
+  }
+  .col.s4.status-placeholder {
+    width: 12.5%;
+    overflow: auto;
+  }
 
-    }
-    
-    .row-status {
-        justify-content: space-around;
-    }
-    
-    .col.s4.status-time {
-        width: 50%;
-        margin: 0%;
-    }
+  .row-status {
+    justify-content: space-around;
+  }
 
-    .collapsible.popout {
-        max-width: 100%;
-    }
+  .col.s4.status-time {
+    width: 50%;
+    margin: 0%;
+  }
 
-    .row .col.s4 {
-        display: flex;
-    }
+  .collapsible.popout {
+    max-width: 100%;
+  }
 
-    .col.s4.feeling-text.sleep-text {
-        justify-content: center;
-    }
+  .row .col.s4 {
+    display: flex;
+  }
 
-    .col.s4.feeling-text.diet-text {
-        padding: 0px;
-        justify-content: center;
-    }
-    
-    .col.s4.status-emoticon {
-        width: 37.5%;
-        margin: 0;
-    }
+  .col.s4.feeling-text.sleep-text {
+    justify-content: center;
+  }
+
+  .col.s4.feeling-text.diet-text {
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .col.s4.status-emoticon {
+    width: 37.5%;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+  blockquote {
+    margin-top: 0px;
+  }
 
-    blockquote {
-        margin-top: 0px;
-    }
-
-    .col.s12.m4.l3.left.quote-column {
-        height: 10rem;
-    }
+  .col.s12.m4.l3.left.quote-column {
+    height: 10rem;
+  }
 }
