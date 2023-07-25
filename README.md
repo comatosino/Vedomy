@@ -1,22 +1,34 @@
-# vedomý
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## A place to breathe, write, and reflect
+## Getting Started
 
+First, run the development server:
 
-Hey there! We've created this space for anyone who needs a second to slow down, reflect, and collect themselves.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-Vedomý is Czech for "conscious", and we believe that a conscious life is a life lived in the present.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-A great way to live like this is by doing exactly what this place is designed to help you to do- breathe, write, and reflect.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
- - Click "Add Update" to journal about your current state, and it will be logged for future reference.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
- - Use the breathe module to help slow your internal pace.
+## Learn More
 
- - Check out a yoga pose, a sleep tip, or a new healthy recipe. Above all, enjoy your stay!
+To learn more about Next.js, take a look at the following resources:
 
-## Click the gif below to check out the app!
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-[![demo](./assets/images/vedomy-demo.gif)](https://comatosino.github.io/Vedomy/)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## This project uses Materialize, JQuery, Spotify Widget, and various data APIs to assist with JS, HTML, CSS in development of the app.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
