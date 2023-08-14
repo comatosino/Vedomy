@@ -17,6 +17,6 @@ A great way to live like this is by doing exactly what this place is designed to
 
 ## Click the gif below to check out the app!
 
-[![demo](./assets/images/vedomy-demo.gif)](https://comatosino.github.io/Vedomy/)
+[![demo](./assets/images/vedomy-demo.gif)](https://r0b4dams.github.io/vedomy)
 
 ## This project uses Materialize, JQuery, Spotify Widget, and various data APIs to assist with JS, HTML, CSS in development of the app.
